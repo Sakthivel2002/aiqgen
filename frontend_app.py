@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import io
 
-API_URL = "http://localhost:5000/generate"
+API_URL = "https://flaskapi-1-04g0.onrender.com"
 
 st.set_page_config(page_title="🧠 AI Smart Question Generator", page_icon="🧠", layout="wide")
 st.title("🧠 AI Smart Question Generator")
@@ -55,3 +55,4 @@ if st.button("🚀 Generate Questions"):
                     st.warning("No questions generated.")
             else:
                 st.error(f"Error: {response.text}")
+
