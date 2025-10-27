@@ -1,3 +1,6 @@
 Flask
 PyMuPDF
 openai
+streamlit
+requests
+
